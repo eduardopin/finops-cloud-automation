@@ -3,3 +3,6 @@
 *.key
 *.tfvars
 *.tfstate
+.codex-repo-context.json
+.DS_Store
+*.tfstate.*
