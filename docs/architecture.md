@@ -10,6 +10,7 @@ Finops Cloud Automation focuses on reusable patterns rather than environment-spe
 - Implementation: examples and scripts in this repository.
 - Validation: local checks and GitHub Actions workflows that prevent obvious drift.
 - Operations: ownership, escalation and maintenance notes in `docs/operating-model.md`.
+- Visual model: operating loop, data flow and automation diagrams in `docs/diagrams.md`.
 
 ## Design Principles
 

@@ -6,6 +6,7 @@
 - Tag resources with owner, service, environment and lifecycle.
 - Document expected cost drivers before introducing new services.
 - Review idle, oversized or duplicate resources during maintenance.
+- Use the diagrams in `docs/diagrams.md` to trace how cost data becomes an approved action.
 
 ## Review Questions
 
