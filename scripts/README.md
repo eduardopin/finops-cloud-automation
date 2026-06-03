@@ -1,0 +1,3 @@
+# Scripts
+
+Small automation starters.

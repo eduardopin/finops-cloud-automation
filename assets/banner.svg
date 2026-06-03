@@ -1,0 +1,9 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="300" rx="26" fill="#0B1120"/>
+<circle cx="1070" cy="40" r="160" fill="#F59E0B" opacity="0.18"/>
+<circle cx="95" cy="295" r="150" fill="#F59E0B" opacity="0.12"/>
+<text x="60" y="92" fill="#F8FAFC" font-family="Segoe UI, Arial" font-size="42" font-weight="800">FinOps Cloud Automation</text>
+<text x="60" y="147" fill="#CBD5E1" font-family="Segoe UI, Arial" font-size="24">Cost governance, tagging policy, shutdown automation, budget review and cloud optimization patterns.</text>
+<rect x="60" y="220" width="1080" height="7" rx="3.5" fill="#F59E0B"/>
+<text x="60" y="260" fill="#94A3B8" font-family="Consolas, monospace" font-size="18">structured public portfolio • useful templates • sanitized engineering examples</text>
+</svg>
