@@ -1,45 +1,20 @@
-<p align="center"><img src="./assets/banner.svg" alt="FinOps Cloud Automation" width="100%" /></p>
+# Finops Cloud Automation
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-Utility%20Repository-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Docs-Ready-22C55E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Public-Sanitized-0EA5E9?style=for-the-badge" />
-</p>
+AWS cost governance automation and FinOps operating practices.
 
-## Purpose
+This repository contains public-safe examples and operational guidance for infrastructure, platform engineering, SRE, FinOps and DevSecOps review. It avoids proprietary customer details, credentials, internal hostnames and account-specific identifiers.
 
-Cost governance, tagging policy, shutdown automation, budget review and cloud optimization patterns.
+## How to Review
 
-This repository is part of a public infrastructure leadership portfolio. It is designed to be useful, clean and easy to review.
+Start with the architecture and operating model documents, then inspect the examples and validation workflow. The repository is organized so maintainers can evaluate purpose, safety boundaries, operational value and extension points without needing private environment context.
 
-## Contents
+## Repository Map
 
-| Folder | Purpose |
-|---|---|
-| `docs/` | Standards, operating model and architecture notes. |
-| `runbooks/` | Operational procedures and response templates. |
-| `templates/` | Reusable patterns for teams. |
-| `scripts/` | Small utilities and automation starters. |
-| `.github/workflows/` | CI/CD and quality checks. |
+- `docs/` - design notes, operational guidance and review material.
+- `examples/` - runnable or adaptable examples with placeholder values.
+- `scripts/` - small automation helpers intended for local validation.
+- `.github/workflows/` - continuous validation and repository hygiene checks.
 
-## Operating model
+## Confidentiality
 
-```mermaid
-flowchart LR
-  A[Need] --> B[Standard]
-  B --> C[Template]
-  C --> D[Automation]
-  D --> E[Review]
-  E --> F[Operational use]
-```
-
-## Reviewer guide
-
-- Start with `docs/operating-model.md`.
-- Review `templates/` for reusable patterns.
-- Review `runbooks/` for operational maturity.
-- Review `.github/workflows/quality.yml` for repository discipline.
-
-## Public safety
-
-No employer code, no credentials, no customer data, no private diagrams and no internal hostnames.
+All examples are intentionally generic. Replace placeholders with values from your own environment and review security, compliance and cost impact before use.
