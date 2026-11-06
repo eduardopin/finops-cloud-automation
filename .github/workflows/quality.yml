@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Public safety audit
         run: |
-          if grep -RIn "SEU_EMAIL_DE_COMMIT_NO_GITHUB" . --exclude-dir=.git; then exit 1; fi
+          if grep -RIn "SEU_EMAIL_DE_COMMIT_NO_GITHUB" . --exclude-dir=.git --exclude=quality.yml; then exit 1; fi
           echo "Basic public safety audit OK"
